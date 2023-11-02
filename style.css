@@ -1,0 +1,53 @@
+.logo { display: inline-block; 
+    position: relative; 
+    width: 90px; 
+    height: 90px; 
+    margin-left: -60px;
+    border-radius: 50%;
+    
+}
+
+li{
+    padding: 5px 10px 10px 10px;
+    outline-color: black;
+}
+
+#w{
+    padding: 30px 0px 0px 0px;
+}
+
+#ban{
+    background-image: url("./banner.png");
+    height: 280px;
+}
+
+#off1{
+    background-image: url("./offer1.png");
+    background-size: cover;
+}
+
+#off2{
+    background-image: url("./offer2.png");
+    background-size: cover;
+}
+
+#off3{
+    background-image: url("./offer3.png");
+    background-size: cover;
+}
+
+#ad{
+    position: relative;
+    padding-left: -100px;
+}
+
+#bo{
+    background-image: url("./doodle.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#adwe{
+    padding: -50px;
+    margin-left: -1%;
+}

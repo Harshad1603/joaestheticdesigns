@@ -1,0 +1,56 @@
+#men1{
+    background-image: url("./mens1.png");
+    background-size: cover;
+}
+
+#men2{
+    background-image: url("./mens2.png");
+    background-size: cover;
+}
+
+#men3{
+    background-image: url("./mens3.png");
+    background-size: cover;
+}
+
+#bo{
+    background-size: cover;
+    object-fit: cover;
+    height: 200px;
+    width: auto;
+    background-repeat: repeat;
+    margin-left: -100px;
+}
+#bo1{
+    background-size: cover;
+    object-fit: cover;
+    height: 200px;
+    width: auto;
+}
+#bo2{
+    object-fit:cover;
+    height: 200px;
+    width: fit-content;
+    align-items: flex-end;
+    margin-top: -18.5%;
+    margin-left: 89%;
+}
+#shoe{
+    object-fit: fill;
+    justify-content: center;
+    height: fit-content;
+}
+
+[id="heart"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  [for="heart"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 2em;
+    align-self: center;  
+    transition: color 0.2s ease-in-out;
+  }
+  

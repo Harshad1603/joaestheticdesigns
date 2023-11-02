@@ -1,0 +1,60 @@
+#women1{
+    background-image: url("./women1.png");
+    background-size: cover;
+    background-position: left;
+}
+
+#women2{
+    background-image: url("./women2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#women3{
+    background-image: url("./women3.png");
+    background-size: cover;
+    background-position: right;
+    
+}
+
+#bo{
+    background-size: cover;
+    object-fit: cover;
+    height: 200px;
+    width: auto;
+    background-repeat: repeat;
+    margin-left: -100px;
+}
+#bo1{
+    background-size: cover;
+    object-fit: cover;
+    height: 200px;
+    width:auto;
+    background-repeat: repeat;
+}
+#bo2{
+    object-fit:fill;
+    height: 200px;
+    width: fit-content;
+    align-items: flex-end;
+    margin-right: -50%;
+}
+#slippers{
+    object-fit: fill;
+    justify-content: center;
+    height: fit-content;
+}
+
+[id="heart"] {
+    position: absolute;
+    left: -100vw;
+  }
+  
+  [for="heart"] {
+    color: #aab8c2;
+    cursor: pointer;
+    font-size: 2em;
+    align-self: center;  
+    transition: color 0.2s ease-in-out;
+  }
+  
